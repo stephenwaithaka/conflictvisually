@@ -113,7 +113,7 @@
     function updateGraph(dataResponse) {
       setGraphData(processData(dataResponse));
     }
-    var apikey = 5745ef70d15eddf7785aaf1b;
+    var apikey = 5745ef70d15eddf7785aaf1b
     var dataRequest = $.get('http://api.crisis.net/item?limit=100&apikey='+apikey);
     dataRequest.done( updateGraph );
   </script>
